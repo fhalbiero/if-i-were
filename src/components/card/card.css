@@ -1,0 +1,19 @@
+.card-container {
+    display: block;
+    width: 380px;
+    height: 380px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 25px;
+    cursor: pointer;
+    overflow: hidden; 
+  }
+
+  img {
+    transition: transform 0.35s ease-out;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
